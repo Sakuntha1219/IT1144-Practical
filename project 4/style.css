@@ -1,0 +1,195 @@
+body {
+background-image:url('Background.jpg');
+background-size:cover;
+
+}
+
+header {
+	display:flex;
+	justify-content:space-between;
+	align-items: center;             
+	padding: 10px;
+	font-family:arial;
+	color:white;
+	font-size:30px;
+}
+
+.logo img {
+    width: 100px; 
+    height: auto;
+border:10px;
+border-radius:50px;	
+}
+
+nav ul {
+  display: flex;
+  list-style: none; 
+  gap: 50px;  
+  font-family:times ne roman;
+  font-size:20px;
+  margin-right:100px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+	margin-right:50px;
+
+}
+
+.discription{
+	margin-left:50px;
+	font-family:arial;
+	color:white;
+	font-size:30px;
+}
+
+p {
+	max-width:800px;
+	margin-left:20px;
+	font-family:arial;
+	font-weight: bold;
+	color:white;
+}
+
+.topic{
+	margin-left:20px;
+	font-family:arial;
+	color:white;
+	font-size:30px;
+	
+}
+
+.lern button {
+	width: 20%;
+    padding: 15px;
+    background: white; /* Teal color */
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+	margin-right:50px;
+	font-family:arial;
+	font-size:20px;
+	font-weight: bold;
+	margin-left:20px;
+}
+
+.payment{
+    width: 300px;
+    background:white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+	font-size:20px;
+	
+}
+
+.payment input {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background: transparent;
+	
+}
+
+.payment {
+	text-align:center;
+}
+
+h3{
+	color:red;
+	font-size:30px;
+}
+
+.payment button {
+	width: 40%;
+    padding: 15px;
+    background: red; /* Teal color */
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+	margin-right:50px;
+	font-family:arial;
+	font-size:15px;
+	font-weight: bold;
+	margin-left:20px;
+}
+
+
+
+
+.lern button:hover {
+	transform:scale(1.05);
+	background:red;
+	border:25px #1E3A8A;
+	border-radius:20px
+}
+
+.payment button:hover {
+	transform:scale(1.05);
+	background:yellow;
+	border:25px #1E3A8A;
+	border-radius:20px
+}
+
+nav :hover {
+	background:red;
+	border:25px #1E3A8A;
+	border-radius:20px
+
+}
+
+.table{
+	margin-bottom:50%;
+	color:white;
+	margin-left:20px;
+}
+
+.styled-table {
+    width: 35%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-family: sans-serif;
+	color:white;
+	margin-left:50px;
+	margin-bottom:50px;
+}
+
+.styled-table thead tr {
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+.styled-table th, 
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid white; 
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid white;
+}
+
+ h6{
+	text-align:center;
+	font-family:arial;
+	font-weight: bold;
+	color:white;
+	
+}
+
+footer {
+	background-color:black;
+
+}
